@@ -134,7 +134,7 @@ p {
 }
 
 .camille .photo div:first-child {
-    background-image: url('http://appsfactory.cat/wp-content/uploads/2021/05/Camille-Brito-Reale.jpg');
+    background-image: url('./img/camille_brito_reale.jpg');
     background-size: contain;
 }
 
@@ -204,7 +204,7 @@ p {
 }
 
 .eric .photo div:first-child {
-    background-image: url('http://appsfactory.cat/wp-content/uploads/2021/05/Èric-Salat-Badia.jpg');
+    background-image: url('./img/eric_salat_badia.jpg');
 }
 
 .eric .person-content {
@@ -220,7 +220,7 @@ p {
 }
 
 .pablo .photo div:first-child {
-    background-image: url('http://appsfactory.cat/wp-content/uploads/2021/05/Pablo-Jofra-Vega-scaled.jpg');
+    background-image: url('./img/pablo_jofra_vega.jpg');
 }
 
 .pablo .person-content {
@@ -236,7 +236,7 @@ p {
 }
 
 .majo .photo > div:first-child {
-    background-image: url('http://appsfactory.cat/wp-content/uploads/2021/05/Maria-José-Rivera-Aristizabal-scaled.jpg');
+    background-image: url('./img/maria_jose_rivera_aristizabal.jpg');
 }
 
 .majo .photo > div:last-child {
@@ -256,7 +256,7 @@ p {
 }
 
 .rocio .photo > div:first-child {
-    background-image: url('http://appsfactory.cat/wp-content/uploads/2021/05/Rocío-Naira-Pérez-Monterde-scaled.jpg');
+    background-image: url('./img//rocio_naira_perez_monterde.jpg');
 }
 
 .rocio .person-content {
@@ -272,7 +272,7 @@ p {
 }
 
 .marina .photo > div:first-child {
-    background-image: url('http://appsfactory.cat/wp-content/uploads/2021/05/Marina-Ventura-Verona-scaled.jpg');
+    background-image: url('./img/marina_ventura_verona.jpg');
 }
 
 .marina .person-content {
@@ -288,7 +288,7 @@ p {
 }
 
 .andry .photo > div:first-child {
-    background-image: url('http://appsfactory.cat/wp-content/uploads/2021/05/Andry-Alexis-Reyes-Cruz-scaled.jpg');
+    background-image: url('./img/andry_alexis_reyes_cruz.jpg');
 }
 
 .andry .person-content {
@@ -304,7 +304,7 @@ p {
 }
 
 .dani .photo > div:first-child {
-    background-image: url('http://appsfactory.cat/wp-content/uploads/2021/05/dani.jpeg');
+    background-image: url('./img/dani.jpeg');
 }
 
 .dani .person-content {
