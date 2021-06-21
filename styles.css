@@ -365,7 +365,7 @@ p {
         padding: 30px;
         margin: 0px;
         border-radius: 0px;
-        width: 100vw;
+        width: 100%;
     }
 
     .left {
@@ -374,6 +374,6 @@ p {
         padding: 30px;
         margin: 0px;
         border-radius: 0px;
-        width: 100vw;
+        width: 100%;
     }
 }
