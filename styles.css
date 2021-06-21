@@ -126,10 +126,10 @@ p {
     color: #333366;
 }
 
-.person-content p {
+/* .person-content p {
     margin-left: 20px;
     margin-right: 20px;
-}
+} */
 
 .camille .person-content {
     align-self: center;
@@ -351,6 +351,9 @@ p {
         display: flex;
         flex-direction: column;
         width: auto;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding: 0px;
     }
 
     .person-content p {
