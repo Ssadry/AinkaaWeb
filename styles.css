@@ -326,10 +326,14 @@ p {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        width: auto;
     }
 
     .header > div:first-child {
-        width: 90%;
+        width: auto;
+    }
+
+    .header > div:first-child {
         margin-bottom: 50px;
     }    
 
@@ -363,6 +367,7 @@ p {
     .person-content > section {
         margin-bottom: 20px;
         margin-right: 0px;
+        margin-left: 0px;
     }
 
     .right {
