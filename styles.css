@@ -322,6 +322,9 @@ p {
 }
 
 @media screen and (max-width: 1000px) {
+    .container {
+        overflow: none;
+    }
     .header {
         flex-direction: column;
         justify-content: center;
