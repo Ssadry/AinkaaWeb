@@ -1,0 +1,376 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+h1 {
+    text-align: left;
+}
+
+h1, h2, h3, h4, a {
+    font-family: 'Quicksand', sans-serif;
+}
+
+h2, h3 {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+h4 {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+a {
+    font-size: 40px;
+    color: black;
+}
+
+p {
+    font-size: 20px;
+}
+
+.init-anim {
+    transform: rotateY(360deg);
+}
+
+.ainkaa-container {
+    width: 100vw;
+    height: 100vh;
+    background-color: #F3F2F3;
+}
+
+.header {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #B4F379; /*Color de fondo del header.*/
+    padding: 50px 100px 50px 100px;
+}
+
+.header > div:first-child {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    align-self: flex-start;
+}
+
+.logo h1 {
+    font-size: 50px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.logo img {
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+.header div:first-child h2 {
+    margin-bottom: 10px;
+}
+
+.header div:last-child img {
+    width: 500px;
+    height: 400px;
+}
+
+.person {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* padding: 40px 40px 60px 40px; */
+    background-color: #F3F2F3;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.person h2 {
+    text-align: center;
+}
+
+.person-content {
+    display: flex;
+    flex-direction: row;
+    width: 75%;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.person-content > section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    perspective: 50;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+.person-content > section h3 {
+    color: #333366;
+}
+
+.person-content p {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.camille .person-content {
+    align-self: center;
+}
+
+.camille .photo div:first-child {
+    background-image: url('http://appsfactory.cat/wp-content/uploads/2021/05/Camille-Brito-Reale.jpg');
+    background-size: contain;
+}
+
+.right {
+    display: flex;
+    justify-content: center;
+    align-self: flex-end;
+    flex-direction: row-reverse;
+    justify-self: center;
+    border-radius: 50px 0 0 50px;
+    padding-left: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 40px;
+}
+
+.left {
+    display: flex;
+    justify-content: center;
+    align-self: flex-start;
+    flex-direction: row;
+    justify-self: center;
+    border-radius: 0 50px 50px 0;
+    padding-right: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+}
+
+.photo {
+    width: 300px;
+    height: 300px;
+    margin-bottom: 20px;
+    transform-style: preserve-3d;
+    position: relative;
+    transition: 1.5s;
+}
+
+.person-content > section:hover .photo {
+    transform: rotateY(180deg);
+}
+
+.photo div:first-child {
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    border-radius: 50%;
+    backface-visibility: hidden;
+    position: absolute;
+}
+
+.photo div:last-child {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    backface-visibility: hidden;
+    position: absolute;
+    transform: rotateY(180deg);
+    border-radius: 50%;
+}
+
+.photo div:last-child h4 {
+    text-align: center;
+}
+
+.eric .photo div:first-child {
+    background-image: url('http://appsfactory.cat/wp-content/uploads/2021/05/Èric-Salat-Badia.jpg');
+}
+
+.eric .person-content {
+    background-color: #333366;
+}
+
+.eric .person-content > section > h4 {
+    color: #FEE26B;
+}
+
+.eric .person-content > p {
+    color: white;
+}
+
+.pablo .photo div:first-child {
+    background-image: url('http://appsfactory.cat/wp-content/uploads/2021/05/Pablo-Jofra-Vega-scaled.jpg');
+}
+
+.pablo .person-content {
+    background-color: #8A7DEA;
+}
+
+.pablo .person-content > section > h4 {
+    color: #FEE26B;
+}
+
+.pablo .person-content > p {
+    color: #F3F2F3;
+}
+
+.majo .photo > div:first-child {
+    background-image: url('http://appsfactory.cat/wp-content/uploads/2021/05/Maria-José-Rivera-Aristizabal-scaled.jpg');
+}
+
+.majo .photo > div:last-child {
+    flex-direction: column;
+}
+
+.majo .person-content {
+    background-color: #B4F379;
+}
+
+.majo .person-content > section > h4 {
+    color: #8A7DEA;
+}
+
+.majo .person-content > p {
+    color: #333366;
+}
+
+.rocio .photo > div:first-child {
+    background-image: url('http://appsfactory.cat/wp-content/uploads/2021/05/Rocío-Naira-Pérez-Monterde-scaled.jpg');
+}
+
+.rocio .person-content {
+    background-color: #333366;
+}
+
+.rocio .person-content > section > h4 {
+    color: #FEE26B
+}
+
+.rocio .person-content > p {
+    color: white;
+}
+
+.marina .photo > div:first-child {
+    background-image: url('http://appsfactory.cat/wp-content/uploads/2021/05/Marina-Ventura-Verona-scaled.jpg');
+}
+
+.marina .person-content {
+    background-color: #8A7DEA;
+}
+
+.marina .person-content > section > h4 {
+    color: #FEE26B;
+}
+
+.marina .person-content > p {
+    color: #F3F2F3;
+}
+
+.andry .photo > div:first-child {
+    background-image: url('http://appsfactory.cat/wp-content/uploads/2021/05/Andry-Alexis-Reyes-Cruz-scaled.jpg');
+}
+
+.andry .person-content {
+    background-color: #B4F379;
+}
+
+.andry .person-content > section > h4 {
+    color: #8A7DEA;
+}
+
+.andry .person-content > p {
+    color: #333366;
+}
+
+.dani .photo > div:first-child {
+    background-image: url('http://appsfactory.cat/wp-content/uploads/2021/05/dani.jpeg');
+}
+
+.dani .person-content {
+    background-color: #333366;
+}
+
+.dani .person-content > section > h4 {
+    color: #FEE26B
+}
+
+.dani .person-content > p {
+    color: white;
+}
+
+@media screen and (max-width: 1000px) {
+    .header {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header > div:first-child {
+        width: 90%;
+        margin-bottom: 50px;
+    }    
+
+    .header div:last-child img {
+        width: 400px;
+        height: 300px;
+    }
+
+    .logo {
+        align-self: center
+    }
+
+    .person-content {
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+    }
+
+    .person-content p {
+        margin: 60px;
+    }
+
+    .person-content > section {
+        margin-bottom: 20px;
+        margin-right: 0px;
+    }
+
+    .right {
+        align-self: center;
+        flex-direction: column;
+        padding: 30px;
+        margin: 0px;
+        border-radius: 0px;
+        width: 100vw;
+    }
+
+    .left {
+        align-self: center;
+        flex-direction: column;
+        padding: 30px;
+        margin: 0px;
+        border-radius: 0px;
+        width: 100vw;
+    }
+}
