@@ -93,7 +93,6 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* padding: 40px 40px 60px 40px; */
     background-color: #F3F2F3;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -343,11 +342,15 @@ p {
         align-self: center
     }
 
+    .person {
+        width: auto;
+    }
+
     .person-content {
         margin-top: 40px;
         display: flex;
         flex-direction: column;
-        width: 80%;
+        width: auto;
     }
 
     .person-content p {
@@ -365,7 +368,6 @@ p {
         padding: 30px;
         margin: 0px;
         border-radius: 0px;
-        width: 100%;
     }
 
     .left {
@@ -374,6 +376,5 @@ p {
         padding: 30px;
         margin: 0px;
         border-radius: 0px;
-        width: 100%;
     }
 }
