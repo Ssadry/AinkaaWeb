@@ -3,6 +3,11 @@
     margin: 0px;
 }
 
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
 h1 {
     text-align: left;
 }
@@ -35,9 +40,7 @@ p {
     transform: rotateY(360deg);
 }
 
-.ainkaa-container {
-    width: 100vw;
-    height: 100vh;
+.container {
     background-color: #F3F2F3;
 }
 
