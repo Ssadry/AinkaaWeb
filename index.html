@@ -9,7 +9,9 @@
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
-        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"> 
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
     </head>
     <body>
         <div class='container'>
@@ -18,19 +20,38 @@
                     <div class='logo'>
                         <img src='./img/icono_1_sombra.png'/>
                         <h1>
-                            Ainkaa
+                            ainkaa
                         </h1>
                     </div>
-                    <h2>
-                        La app donde das y recibes, recibes y das. 
-                    </h2>
-                    <p>
-                        Únete a nuestra plataforma de economía colaborativa donde puede sintercambiar tus servicios y habilidades por tiempo con personas cercanas sin que el dinero sea un limitante. Conecta con tu entorno y creced juntos.
-                    </p>
                 </div>
-                <div>
-                    <img src='./img/ilustraciones_ainkaa.png'/>
+                <div class="bar-menu">
+                    <nav>
+                        <ul>
+                            <li>
+                                <a href="#">
+                                   Inicio
+                                </a>
+                            </li>
+                            <li>
+                                <a href="pages/ekiipu.html">
+                                   Ekiipu
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
                 </div>
+            </div>
+            <div class="description">
+                <p>
+                    Ainkaa es una plataforma que promueve la economía colaborativa para crear una cominudad que facilite el acceso de todo el mundo a conocimientos y servicios.
+                </p>
+                <p>
+                    ¡Descarga nuestra app, y comienza a ser parte de la comunidad ainkaa, para que crezcamos juntos!
+                </p>
+                <img src="img/ilustraciones_ainkaa.png"/>
+                <p>
+                    ¿Quieres saber más de nosotros? ¡Conócemos!
+                </p>
             </div>
             <div class='person camille'>
                 <h2>
@@ -58,7 +79,7 @@ Todos estos conceptos, conocimientos y recursos los aplica en su día a día y e
                 </div>
             </div>
             <div class='person eric'>
-                <div class='person-content right' data-aos='slide-up'>
+                <div class='person-content right'>
                     <section>
                         <div class='photo'>
                             <div></div>
@@ -78,7 +99,7 @@ Todos estos conceptos, conocimientos y recursos los aplica en su día a día y e
                 </div>
             </div>
             <div class='person pablo'>
-                <div class='person-content left' data-aos='slide-up'>
+                <div class='person-content left'>
                     <section>
                         <div class='photo'>
                             <div></div>
@@ -101,7 +122,7 @@ Observar, aprender y crecer de manera continua y saludable. Inspirar para comuni
                 </div>
             </div>
             <div class='person majo'>
-                <div class='person-content right' data-aos='slide-up'>
+                <div class='person-content right'>
                     <section>
                         <div class='photo'>
                             <div></div>
@@ -124,7 +145,7 @@ Observar, aprender y crecer de manera continua y saludable. Inspirar para comuni
                 </div>
             </div>
             <div class='person rocio'>
-                <div class='person-content left' data-aos='slide-up'>
+                <div class='person-content left'>
                     <section>
                         <div class='photo'>
                             <div></div>
@@ -146,7 +167,7 @@ Observar, aprender y crecer de manera continua y saludable. Inspirar para comuni
                 </div>
             </div>
             <div class='person marina'>
-                <div class='person-content right' data-aos='slide-up'>
+                <div class='person-content right'>
                     <section>
                         <div class='photo'>
                             <div></div>
@@ -166,7 +187,7 @@ Observar, aprender y crecer de manera continua y saludable. Inspirar para comuni
                 </div>
             </div>
             <div class='person andry'>
-                <div class='person-content left' data-aos='slide-up'>
+                <div class='person-content left'>
                     <section>
                         <div class='photo'>
                             <div></div>
@@ -187,7 +208,7 @@ Observar, aprender y crecer de manera continua y saludable. Inspirar para comuni
                 </div>
             </div>
             <div class='person dani'>
-                <div class='person-content right' data-aos='slide-up'>
+                <div class='person-content right'>
                     <section>
                         <div class='photo'>
                             <div></div>
@@ -210,7 +231,6 @@ Observar, aprender y crecer de manera continua y saludable. Inspirar para comuni
         </div>
         <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
         <script>
-            AOS.init();
             const camille = document.querySelector('.camille .person-content > section .photo');
             camille.classList.add('init-anim');
         </script>
